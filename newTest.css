@@ -1,0 +1,40 @@
+/*SVG*/
+svg {
+    background-image: url(mplab_screen.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    }
+
+    path {
+            fill: transparent;
+    }
+    
+    .st0{opacity:0.5;}
+    .st1{fill:#F9C7C7;}
+    .st2{fill:#F7F3C6;}
+    .st3{fill:#C7E7F2;}
+    .st4{fill:transparent;}
+    .st5{fill:#E1C8ED;}
+    .st6{fill:#FBB03B;}
+
+
+/*Tooltip*/
+.box-container{
+    position: relative;
+    font-family: Arial;
+}
+.box-content{
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color:white;
+    max-width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: dashed grey;
+   
+}
